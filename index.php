@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" coentnt="IE=edge">
+    <meta name="viewport" content="width=dviece-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Php</title>
     <style>
@@ -21,7 +21,7 @@
             padding: 8px;
         }
 
-        #customers tR:nth-child(even) {
+        #customers tr:nth-child(even) {
             background-color: #f2f2f2;
         }
 
@@ -60,6 +60,8 @@
                 <?php include('registrar.php')    ?>
             </div>
             <div class="col-sm-8">
+
+                <?php include('listado.php')    ?>
 
 
             </div>
