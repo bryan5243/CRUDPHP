@@ -33,18 +33,18 @@
             $field4name = $row['telefono'];
 
             echo '<tr>
-<td>' . $field0name . '</td>
-<td>' . $field1name . '</td>
-<td>' . $field2name . '</td>
-<td>' . $field3name . '</td>
-<td>' . $field4name . '</td>
-<td>
-<a class="btn btn-danger">Eliminar</a>
-<button class="btn btn-primary">Actualizar</button>
+               <td>' . $field0name . '</td>
+               <td>' . $field1name . '</td>
+               <td>' . $field2name . '</td>
+               <td>' . $field3name . '</td>
+               <td>' . $field4name . '</td>
+               <td>
+               <a  href="eliminar.php?id='.$field0name.'" class="btn btn-danger">Eliminar</a>
+               <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop' . $row['id'] . '">Actualizar</button>
+               
+               </td>
 
-</td>
-
-</tr>';
+               </tr>';
         } ?>
     </table>
 

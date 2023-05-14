@@ -65,6 +65,7 @@
 
 
             </div>
+            <?php include('actualizar_modal.php')?>
         </div>
 
 
